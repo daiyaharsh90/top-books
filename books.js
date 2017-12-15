@@ -66,9 +66,7 @@ function updateBestSellers(nytimesBestSellers) {
 
 function updateCover(id, isbn) {
   fetch(
-    "https://www.googleapis.com/books/v1/volumes?q=isbn:" +
-      isbn +
-      "&key=" + g_api_key,
+    "https://www.googleapis.com/books/v1/volumes?q=isbn:" +isbn +"&key=" + g_api_key,
     {
       method: "get"
     }
