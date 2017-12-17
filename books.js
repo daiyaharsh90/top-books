@@ -87,7 +87,7 @@ fetch(
             " ISBN: " +
             isbn
         );
-        var index = id - 1;
+        var index = id - 3;
         var img = archivedImages[index];
         $("#cover-" + id).attr("src", img);
       });
